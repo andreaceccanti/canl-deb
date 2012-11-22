@@ -1,0 +1,2 @@
+# create links: $2 -> $1
+usr/share/java/canl-@@POM_VERSION@@.jar usr/share/java/canl.jar

@@ -1,0 +1,15 @@
+Source: libcanl-java
+Priority: extra
+Maintainer: Valerio Venturi <valerio.venturi@cnaf.infn.it>
+Build-Depends: maven2, default-jdk, debhelper (>= 7.0.50)
+Standards-Version: 3.9.1
+Section: java
+Homepage: https://github.com/eu-emi/canl-java
+Vcs-Git: git://github.com/eu-emi/canl-java.git
+Vcs-Browser: https://github.com/eu-emi/canl-java
+
+Package: libcanl-java
+Architecture: all
+Depends: default-jre-headless, libbcprov146-java (>=1.46), libcommons-io-java, ${misc:Depends}
+Description: The CANL Java Library
+ The CANL Java Library is missing a working deb package and so I have to provide one
