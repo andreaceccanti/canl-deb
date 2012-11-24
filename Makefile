@@ -2,7 +2,7 @@ name=libcanl-java
 tag=master
 
 # the GitHub repo where source tarball will be fetched from
-git=git://github.com/eu-emi/canl-java.git
+git=git://github.com/andreaceccanti/canl-java.git
 
 # needed dirs
 debbuild_dir=$(shell pwd)/debbuild
